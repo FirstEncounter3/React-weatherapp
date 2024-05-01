@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+}
+
+.main-container input {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid dodgerblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.main-container .buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-container .buttons button {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid dodgerblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container-buttons {
+    border: 1px solid blue;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.current-weather {
+    border: 1px solid green;
+}
+
+.current-weather p {
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.current-weather .temp {
+    font-size: 50px;
+}
+
+.forecast-weather {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.forecast-weather table {
+    border-collapse: collapse;
+}
+
+.forecast-weather table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
