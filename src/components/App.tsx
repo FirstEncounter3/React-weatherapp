@@ -123,7 +123,7 @@ const App = () => {
           <button onClick={get5DayWeather}>Погода на 5 дней</button>
         </div>
       </div>
-      <section className="container-buttons">
+      <section className="container-weather">
         <CurrentWeather weather={weather} />
         <ForecastWeather forecastWeather={forecastWeather} />
       </section>
