@@ -9,7 +9,7 @@
 
 ## Запуск\Сборка
 1. npm run build
-2. nom run start
+2. npm run start
 
 ## Запуск в локальной сети (для проверки с мобильных устройств)
 1. npm run start-lan
