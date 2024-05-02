@@ -1,0 +1,39 @@
+
+.forecast-table {
+    border: 4px solid white;
+    background-color: rgba(105, 98, 98, 0.512);
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.forecast-table th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.forecast-table th {
+    background-color: rgba(212, 211, 211, 0.512);
+}
+
+.forecast-table th:nth-child(odd) {
+    background-color: rgba(172, 170, 170, 0.512);
+}
+
+.forecast-table tr:nth-child(even) {
+    background-color: rgba(212, 211, 211, 0.512);
+}
+
+.forecast-table tr{
+    transition: .3s;
+}
+
+.forecast-table tr:hover {
+    background-color: rgba(113, 110, 110, 0.512);
+}
+
+.forecast-table-wrapper {
+    overflow-x: auto;
+}
