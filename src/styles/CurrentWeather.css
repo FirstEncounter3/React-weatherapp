@@ -1,0 +1,30 @@
+.current-weather {
+    border: 4px solid white;
+    background-color: rgba(105, 98, 98, 0.512);
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.current-weather p {
+    margin: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.current-weather .temp {
+    font-size: 70px;
+}
+
+@media screen and (max-width: 400px) {
+    .current-weather p {
+        font-size: 20px;
+    }
+
+    .current-weather .temp {
+        font-size: 40px;
+    }
+}
