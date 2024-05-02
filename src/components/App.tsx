@@ -6,7 +6,8 @@ import ForecastWeather from "./ForecastWeather";
 
 import "../styles/App.css";
 
-const apiKey = "001b2162aa83758c575d9d0269b04f2d";
+import { apiKey } from "../config";
+
 const baseUrlGetCity = "http://api.openweathermap.org/geo/1.0/reverse?";
 const baseUrlCurrentWeather = "https://api.openweathermap.org/data/2.5/weather?q=";
 const baseUrl5DayWeather = "https://api.openweathermap.org/data/2.5/forecast?q=";
