@@ -1,3 +1,6 @@
+# Описание
+Приложение погоды. Позволяет узнавать погоду на основании отслеживания геопозиции или при помощи поиска.
+
 ## Установка
 1. git clone https://github.com/FirstEncounter3/React-weatherapp.git
 2. npm install
